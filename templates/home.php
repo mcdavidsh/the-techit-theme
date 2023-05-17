@@ -10,37 +10,35 @@ get_header();
 ?>
 
 	<!--First Hero Section-->
-	<section>
 
-		<div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
-			<div class="rounded-lg md:p-12 grid gap-4 lg:grid-cols-2 sm:grid-col-1">
-				<div class="mt-8 flex justify-start flex-col align-middle">
-					<a href="#" class="text-dark text-left font-semibold">
-						Our services
-					<h1 class="mb-4 text-4xl font-extrabold text-gray-900 md:text-5xl lg:text-6xl dark:text-white">The best service provider you’ll never find else where
-					</h1>
-					</a>
-				</div>
-				<div class="">
-					<img src="<?php echo get_template_directory_uri()?>/assets/img/icons.png" class="w-9/12">
-				</div>
 
+	<section class="">
+		<div class="py-10 px-4  container mx-auto md:flex gap-12 justify-between items-center px-4 lg:px-6 xl:px-6 space-y-14 md:space-y-0 z-10 relative">
+			<div class="md:w-1/2 text-black space-y-5 xl:space-y-8">
+				<p class="text-base xl:text-xl font-semibold">Our Services</p>
+				<h1 class="text-3xl lg:text-4xl xl:text-5xl font-bold">The best service provider
+					you’ll never find else
+					where</h1>
+			</div>
+
+			<div class="md:w-1/2 flex justify-center md:justify-end">
+				<img src="<?php echo get_template_directory_uri()?>/assets/img/icons.png" class="w-9/12 rounded-xl object-cover">
 			</div>
 		</div>
 		<div class="bg-gradient-to-b from-green-50 to-transparent dark:from-green-900 w-full h-full absolute top-0 left-0 z-0"></div>
 	</section>
-	<section>
-		<h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white text-center">Higher Education</h1>
+	<section class="pt-8">
+		<h1 class="mb-4 text-4xl font-bold leading-none tracking-tight text-gray-900 md:text-2xl lg:text-4xl dark:text-white text-center">Higher Education</h1>
 		<div class="inline-flex items-center justify-center w-full">
-				<svg width="196" height="12" viewBox="0 0 196 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<rect width="98" height="12" fill="#9CCB48"/>
-					<rect x="98" width="98" height="12" fill="#F58634"/>
-				</svg>
+			<svg width="196" height="12" viewBox="0 0 196 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<rect width="98" height="12" fill="#9CCB48"/>
+				<rect x="98" width="98" height="12" fill="#F58634"/>
+			</svg>
 		</div>
 	</section>
 
 	<section>
-		<div class="px-4 mx-auto max-w-screen-xl">
+		<div class="px-4 mx-auto">
 			<div class="rounded-lg md:p-12 grid gap-4 lg:grid-cols-2 sm:grid-col-1">
 				<div>
 					<a href="#"
@@ -60,7 +58,7 @@ get_header();
 
 			</div>
 		</div>
-		<div class="px-4 mx-auto max-w-screen-xl">
+		<div class="px-4 mx-auto">
 			<div class="rounded-lg md:p-12 grid gap-4 lg:grid-cols-2 sm:grid-col-1">
 				<div class="mr-4 ">
 					<img src="<?php echo get_template_directory_uri()?>/assets/img/campus.png" style="width:640px;">
@@ -80,6 +78,8 @@ get_header();
 			</div>
 		</div>
 	</section>
+
+
 
 <?php
 get_footer();

@@ -19,7 +19,7 @@ $menu = array(
 ?>
 <header class="relative z-50 flex justify-center ">
 
-    <nav class=" bg-white border-gray-200 dark:bg-gray-900 absolute inset-y-6 w-9/12" >
+    <nav class=" bg-white border-gray-200 dark:bg-gray-900 absolute inset-y-6 w-4/5" >
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto bg-white p-4 rounded-lg shadow-md">
             <a href="/" class="flex items-center">
                 <img src="<?php echo get_template_directory_uri()?>/assets/img/logo.png" class="h-8 mr-3" alt="it world logo" />

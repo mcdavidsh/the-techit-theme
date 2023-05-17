@@ -6,7 +6,7 @@ get_header();
 
 <main
 	aria-labelledby="pageTitle"
-	class="flex items-center sal-secondary-dark-bg justify-center h-screen bg-gray-100 dark:bg-dark dark:text-light"
+	class="flex items-center justify-center h-screen bg-gray-100 dark:bg-dark dark:text-light"
 >
 	<div class="p-4 space-y-4">
 		<div class="flex flex-col items-start space-y-3 sm:flex-row sm:space-y-0 sm:items-center sm:space-x-3">
